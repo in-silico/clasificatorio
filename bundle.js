@@ -20,7 +20,7 @@ function renderScore(data) {
     scoreboard.push({name: f.name, score: score});
   }
   scoreboard.sort(function(a, b) {
-    return a.score - b.score;
+    return b.score - a.score;
   });
 
   var source = $("#scoreboard-template").html();
