@@ -1,5 +1,6 @@
 body {
     font:15px arial,sans-serif;
+
 }
 h1 {
     margin: 0 0 10px 0;
@@ -8,19 +9,24 @@ h1 {
     background-color: #999;
     color: #fff;
 }
+
+.bg-warning {
+    margin: 5px;
+    padding: 5px;
+}
+
 table {
     margin: 10px;
+    background-color: #fff;
 }
 th, td {
     padding: 5px;
     border: 1px solid #999;
 }
 th {
-    background: #ccc;
+    background: #ddd;
 }
-tr:nth-child(odd) {
-    background: #eee;
-}
+
 td a {
     color: #000;
     text-decoration: underline;
