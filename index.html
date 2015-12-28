@@ -1,20 +1,65 @@
+<!-- In-silico - Web Clasificatorio -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Clasificatorio UTP</title>
+    <title>Insilico - Clasificatorio UTP</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="./bundle.js"></script>
-    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="jquery.js"></script>
+    <script src="bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
-    <link href="style.css" rel="stylesheet">
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/navbar.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
   </head>
   <body>
-    <h3> Contests </h3>
-    <div id="contest"> </div>
+    <div class="container">
 
-    <h3> Scoreboard </h3>
-    <div id="scoreboard"> </div>
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://github.com/in-silico" target="_blank">In-silico</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Clasificatorio</a></li>
+              <!-- <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li> -->
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a></a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
 
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-xs-12 col-md-6 col-lg-6 text-center">
+            <h3> Contests </h3>
+            <div id="contest"></div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-6 text-center">
+            <h3> Scoreboard </h3>
+            <div id="scoreboard"> </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <h6>Brought to you by </h6>
+        <img src="./img/logo.png" width="110px"></img>
+      </div>
+
+    </div> <!-- /container -->
   </body>
 </html>
-
