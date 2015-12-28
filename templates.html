@@ -1,0 +1,33 @@
+<script id="contest-template" type="text/x-handlebars-template">
+<table>
+  <thead>
+    <th>Url</th>
+    <th>Valor</th>
+  </thead>
+  <tbody>
+    {{#contest}}
+    <tr>
+      <td><a href="{{scoreboard}}" target="_blank">{{scoreboard}} </a></td>
+      <td>{{points}}</td>
+    </tr>
+    {{/contest}}
+  </tbody>
+</table>
+</script>
+
+<script id="scoreboard-template" type="text/x-handlebars-template">
+<table>
+  <thead>
+    <th>Nombre</th>
+    <th>Puntos</th>
+  </thead>
+  <tbody>
+    {{#scoreboard}}
+    <tr>
+      <td>{{name}}</td>
+      <td>{{score}}</td>
+    </tr>
+    {{/scoreboard}}
+  </tbody>
+</table>
+</script>

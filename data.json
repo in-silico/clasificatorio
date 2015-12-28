@@ -1,0 +1,27 @@
+{
+  "contest": [
+    {
+      "date": "2015-12-27",
+      "scoreboard": "http://ahmed-aly.com/Standings.jsp?ID=23234",
+      "points": 1
+    }
+  ],
+  "people": [
+    {
+      "name": "Carlos Arias",
+      "contests": [0]
+    },
+    {
+      "name": "Manuel Pineda",
+      "contests": [0]
+    },
+    {
+      "name": "Sebastian Vega",
+      "contests": [0]
+    },
+    {
+      "name": "Alejandro Rendon",
+      "contests": [0]
+    }
+  ]
+}
