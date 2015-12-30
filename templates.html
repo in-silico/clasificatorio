@@ -1,12 +1,20 @@
 <script id="contest-template" type="text/x-handlebars-template">
 <table class="table table-bordered">
   <thead>
-    <th>Url</th>
-    <th>Valor</th>
+    <th>
+      <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Fecha
+    </th>
+    <th>
+      <span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Url
+    </th>
+    <th>
+      <span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span> Valor
+    </th>
   </thead>
   <tbody>
     {{#contest}}
     <tr>
+      <td>{{date}}</td>
       <td><a href="{{scoreboard}}" target="_blank">{{scoreboard}} </a></td>
       <td>{{points}}</td>
     </tr>
@@ -18,8 +26,12 @@
 <script id="scoreboard-template" type="text/x-handlebars-template">
 <table class="table table-bordered">
   <thead>
-    <th>Nombre</th>
-    <th>Puntos</th>
+    <th>
+      <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Nombre
+    </th>
+    <th>
+      <span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span> Puntos
+    </th>
   </thead>
   <tbody>
     {{#scoreboard}}
