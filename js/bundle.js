@@ -49,11 +49,11 @@ function loadData() {
   $.getJSON('data.json').fail(function (e) {
     alert('Error: ' + JSON.stringify(e));
   }).done(function (data) {
-    if (document.location.pathname == '/') {
+    if (/rules\.html$/.test(document.location.pathname)) {
+      renderRules(data.rules);
+    } else {
       renderContest(data);
       renderScore(data);
-    } else if (document.location.pathname == '/rules.html') {
-      renderRules(data.rules);
     }
   });
 }
