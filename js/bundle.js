@@ -15,7 +15,15 @@ function renderScore(data) {
     var score = 0;
     for (var j = 0, p; j < f.contests.length; ++j) {
       p = f.contests[j];
-      score += contest[p].points;
+      if (typeof (p) == 'number')
+        score += contest[p].points;
+      else {
+        console.log(p);
+        var weight = 1;
+        if (p.pos <= 3) weight = 3;
+        else if (p.pos <= 6) weight = 2;
+        score += contest[p.id].points * weight;
+      }
     }
     scoreboard.push({name: f.name, score: score});
   }
