@@ -1,2 +1,2 @@
-# clasificatorio
-Clasificatorio UTP
+# Clasificatorio
+Información sobre Clasificatorio UTP - Maratones de Programación 

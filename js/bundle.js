@@ -6,6 +6,14 @@ function renderContest(data) {
   $("#contest").html(html);
 }
 
+function renderRules(data) {
+  console.log(data);
+  var source   = $("#rules-template").html();
+  var template = Handlebars.compile(source);
+  var html = template(data);
+  $("#theRules").html(html);
+}
+
 function renderScore(data) {
   var people  = data.people,
       contest = data.contest;
@@ -41,8 +49,12 @@ function loadData() {
   $.getJSON('data.json').fail(function (e) {
     alert('Error: ' + JSON.stringify(e));
   }).done(function (data) {
-    renderContest(data);
-    renderScore(data);
+    if (document.location.pathname == '/') {
+      renderContest(data);
+      renderScore(data);
+    } else if (document.location.pathname == '/rules.html') {
+      renderRules(data.rules);
+    }
   });
 }
 
