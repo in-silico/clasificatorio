@@ -6,6 +6,13 @@ function renderContest(data) {
   $("#contest").html(html);
 }
 
+function renderRules(data) {
+  var source   = $("#rules-template").html();
+  var template = Handlebars.compile(source);
+  var html = template(data);
+  $("#theRules").html(html);
+}
+
 function renderScore(data) {
   var people  = data.people,
       contest = data.contest;
@@ -35,6 +42,7 @@ function loadData() {
   }).done(function (data) {
     renderContest(data);
     renderScore(data);
+    renderRules(data);
   });
 }
 
