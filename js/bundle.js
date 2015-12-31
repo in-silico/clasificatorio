@@ -25,7 +25,6 @@ function renderScore(data) {
       if (typeof (p) == 'number')
         score += contest[p].points;
       else {
-        console.log(p);
         var weight = 1;
         if (p.pos <= 3) weight = 3;
         else if (p.pos <= 6) weight = 2;
