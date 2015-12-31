@@ -55,7 +55,7 @@
     }
   ],
   "rules": {
-    "description": "Ahora las reglas que tendremos en cuenta para escoger los siete integrantes de la selección que faltan:",
+    "description": "Reglas para la selección de integrantes para el ICPC 2016, Universidad Tecnológica de Pereira.",
     "list": [
       "Ranking en Codeforces (http://www.codeforces.com), donde los aspirantes deben participar como mínimo en el 70% de las competencias que se realicen entre el 27 de Diciembre de 2015 al 8 de Abril de 2016.",
       "Desempeño de los entrenamientos internos nocturnos (organizados por Manuel y Carlos), los cuales se realizarán los Domingos, Lunes, Martes, Miércoles y posiblemente los Jueves a las 9:00 o 10:00 PM, con una duración de una hora y media. Los aspirantes deben participar en al menos el 70% de los entrenamientos realizados entre el 27 de Diciembre de 2015 al 7 de Abril de 2016.",
