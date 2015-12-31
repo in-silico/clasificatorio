@@ -7,6 +7,7 @@ function renderContest(data) {
 }
 
 function renderRules(data) {
+  console.log(data);
   var source   = $("#rules-template").html();
   var template = Handlebars.compile(source);
   var html = template(data);
@@ -40,9 +41,12 @@ function loadData() {
   $.getJSON('data.json').fail(function (e) {
     alert('Error: ' + JSON.stringify(e));
   }).done(function (data) {
-    renderContest(data);
-    renderScore(data);
-    renderRules(data);
+    if (document.location.pathname == '/') {
+      renderContest(data);
+      renderScore(data);
+    } else if (document.location.pathname == '/rules.html') {
+      renderRules(data.rules);
+    }
   });
 }
 

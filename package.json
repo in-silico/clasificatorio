@@ -1,0 +1,23 @@
+{
+  "name": "clasificatorio",
+  "version": "1.0.0",
+  "description": "Clasificatorio utp",
+  "main": "app.js",
+  "scripts": {
+    "start": "http-server ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/in-silico/clasificatorio.git"
+  },
+  "author": "Manuel Pineda <manuel.felipe.pineda@gmail.com> (http://github.com/pin3da)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/in-silico/clasificatorio/issues"
+  },
+  "homepage": "https://github.com/in-silico/clasificatorio#readme",
+  "dependencies": {
+    "http-server": "^0.8.5"
+  }
+}
