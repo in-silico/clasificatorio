@@ -7,7 +7,6 @@ function renderContest(data) {
 }
 
 function renderRules(data) {
-  console.log(data);
   var source   = $("#rules-template").html();
   var template = Handlebars.compile(source);
   var html = template(data);
