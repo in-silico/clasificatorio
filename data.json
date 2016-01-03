@@ -3,21 +3,25 @@
     {
       "date": "2015-12-27",
       "scoreboard": "http://ahmed-aly.com/Standings.jsp?ID=23234",
+      "contest-name": "Ahmed-Aly OJ - 1",
       "points": 1
     },
     {
       "date": "2015-12-28",
       "scoreboard": "http://ahmed-aly.com/Standings.jsp?ID=23239",
+      "contest-name": "Ahmed-Aly OJ - 2",
       "points": 1
     },
     {
       "date": "2015-12-29",
       "scoreboard": "http://ahmed-aly.com/Standings.jsp?ID=23244",
+      "contest-name": "Ahmed-Aly OJ - 3",
       "points": 1
     },
     {
       "date": "2015-12-30",
       "scoreboard": "http://codeforces.com/contest/611/standings",
+      "contest-name": "Codeforces - 1",
       "points": 2
     }
   ],
