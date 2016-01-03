@@ -15,7 +15,7 @@
       {{#contest}}
       <tr>
         <td>{{date}}</td>
-        <td><a href="{{scoreboard}}" target="_blank">{{scoreboard}} </a></td>
+        <td><a href="{{scoreboard}}" target="_blank">{{contest-name}} </a></td>
         <td>{{points}}</td>
       </tr>
       {{/contest}}
@@ -48,9 +48,9 @@
   <br />
   <p>{{description}}</p>
   <br />
-  <ul>
+  <ol>
   {{#list}}
     <li>{{this}}</li>
   {{/list}}
-  </ul>
+  </ol>
 </script>
