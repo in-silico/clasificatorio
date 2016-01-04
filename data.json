@@ -23,16 +23,22 @@
       "scoreboard": "http://codeforces.com/contest/611/standings",
       "contest-name": "Codeforces - 1",
       "points": 2
+    },
+    {
+      "date": "2016-01-03",
+      "scoreboard": "http://ahmed-aly.com/Standings.jsp?ID=23279",
+      "contest-name": "Ahmed-Aly OJ - 4",
+      "points": 1
     }
   ],
   "people": [
     {
       "name": "Carlos Arias",
-      "contests": [0, 2]
+      "contests": [0, 2, 4]
     },
     {
       "name": "Manuel Pineda",
-      "contests": [0, 1, {"id": 3, "pos": 1}]
+      "contests": [0, 1, {"id": 3, "pos": 1}, 4]
     },
     {
       "name": "Sebastian Vega",
@@ -40,7 +46,7 @@
     },
     {
       "name": "Alejandro Rendon",
-      "contests": [0, 1, 2, {"id": 3, "pos": 3}]
+      "contests": [0, 1, 2, {"id": 3, "pos": 3}, 4]
     },
     {
       "name": "Alejandro Suarez",
@@ -48,19 +54,23 @@
     },
     {
       "name": "Sebastian Duque",
-      "contests": [0, 1, 2, {"id": 3, "pos": 2}]
+      "contests": [0, 1, 2, {"id": 3, "pos": 2}, 4]
     },
     {
       "name": "Leiver Campeon",
-      "contests": [1, 2, {"id": 3, "pos": 4}]
+      "contests": [1, 2, {"id": 3, "pos": 4}, 4]
     },
     {
       "name": "Yeferson Gaitan",
-      "contests": [2]
+      "contests": [2, 4]
     },
     {
       "name": "Daniel Marin",
-      "contests": [2]
+      "contests": [2, 4]
+    },
+    {
+      "name": "Alejandro Moreno",
+      "contests": [4]
     }
   ],
   "rules": {
