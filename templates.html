@@ -1,9 +1,9 @@
 <script id="contest-template" type="text/x-handlebars-template">
 <table class="centered">
     <thead>
-      <th>Fecha</th>
-      <th>Url</th>
-      <th>Valor</th>
+      <th><i class="material-icons">today</i> Fecha</th>
+      <th><i class="material-icons">link</i> Url</th>
+      <th><i class="material-icons">done</i> Valor</th>
     </thead>
     <tbody>
       {{#contest}}
@@ -20,8 +20,8 @@
 <script id="scoreboard-template" type="text/x-handlebars-template">
 <table class="centered">
     <thead>
-      <th>Nombre</th>
-      <th>Puntos</th>
+      <th><i class="material-icons">perm_identity</i> Nombre</th>
+      <th><i class="material-icons">done_all</i> Puntos</th>
     </thead>
     <tbody>
       {{#scoreboard}}
@@ -48,7 +48,7 @@
   <h4>Notas</h4>
   {{#notes}}
   <ul class="light">
-    <li>{{this}}</li>
+    <li><i class="material-icons">info_outline</i> {{this}}</li>
   </ul>
   {{/notes}}
   <br /><br />
