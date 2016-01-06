@@ -14,7 +14,7 @@ td, th {
   padding: 6px 8px;
 }
 
-tr:nth-child(even) {background: #B6C2C9}
+tr:nth-child(even) {background: #e2e6e9}
 tr:nth-child(odd) {background: #FFF}
 
 a {
