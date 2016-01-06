@@ -8,11 +8,14 @@
 }
 
 .icon-block .material-icons {
-	font-size: inherit;
+  font-size: inherit;
 }
 td, th {
-    padding: 6px 8px;
+  padding: 6px 8px;
 }
+
+tr:nth-child(even) {background: #B6C2C9}
+tr:nth-child(odd) {background: #FFF}
 
 a {
   outline: none;
