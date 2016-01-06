@@ -1,37 +1,19 @@
-body {
-    font:15px arial,sans-serif;
+/* Custom Stylesheet */
+/**
+ * Made By MaterializeCSS.com
+ */
 
-}
-h1 {
-    margin: 0 0 10px 0;
-    padding: 5px;
-    font-size: 24px;
-    background-color: #999;
-    color: #fff;
+.icon-block {
+  padding: 0 15px;
 }
 
-.bg-warning {
-    margin: 5px;
-    padding: 5px;
+.icon-block .material-icons {
+	font-size: inherit;
+}
+td, th {
+    padding: 6px 8px;
 }
 
-table {
-    margin: 10px;
-    background-color: #fff;
-}
-th, td {
-    padding: 5px;
-    border: 1px solid #999;
-}
-th {
-    background: #ddd;
-}
-
-td a {
-    color: #000;
-    text-decoration: underline;
-}
-
-a:focus {
-    outline: 0px;
+a {
+  outline: none;
 }
