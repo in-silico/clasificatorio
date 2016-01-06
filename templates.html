@@ -1,15 +1,9 @@
 <script id="contest-template" type="text/x-handlebars-template">
-<table class="table table-bordered">
+<table class="centered">
     <thead>
-      <th>
-        <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Fecha
-      </th>
-      <th>
-        <span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Url
-      </th>
-      <th>
-        <span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span> Valor
-      </th>
+      <th>Fecha</th>
+      <th>Url</th>
+      <th>Valor</th>
     </thead>
     <tbody>
       {{#contest}}
@@ -24,19 +18,15 @@
 </script>
 
 <script id="scoreboard-template" type="text/x-handlebars-template">
-<table class="table table-bordered">
+<table class="centered">
     <thead>
-      <th>
-        <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Nombre
-      </th>
-      <th>
-        <span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span> Puntos
-      </th>
+      <th>Nombre</th>
+      <th>Puntos</th>
     </thead>
     <tbody>
       {{#scoreboard}}
       <tr>
-        <td>{{name}}</td>
+        <td class="light">{{name}}</td>
         <td>{{score}}</td>
       </tr>
       {{/scoreboard}}
@@ -45,19 +35,21 @@
 </script>
 
 <script id="rules-template" type="text/x-handlebars-template">
+  <div class="row center">
+    <h5 class="header col s12 light">{{description}}</h5>
+  </div>
   <br />
-  <p>{{description}}</p>
-  <br />
-  <ol>
+  <ol class="light">
   {{#list}}
     <li>{{this}}</li>
   {{/list}}
   </ol>
   <br />
-  <p>Notas</p>
+  <h4>Notas</h4>
   {{#notes}}
-  <ul>
+  <ul class="light">
     <li>{{this}}</li>
   </ul>
   {{/notes}}
+  <br /><br />
 </script>

@@ -5,67 +5,56 @@
     <title>Insilico - Clasificatorio UTP</title>
     <meta charset="utf-8"></meta>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="./js/bundle.js"></script>
-    <script src="./js/jquery.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
 
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
-    <link href="./css/navbar.css" rel="stylesheet">
-    <link href="./css/style.css" rel="stylesheet">
+    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="./css/materialize.min.css" rel="stylesheet" media="screen,projection">
+    <link href="./css/style.css" rel="stylesheet" media="screen,projection">
   </head>
   <body>
-    <div class="container">
+    <div class="navbar-fixed">
+      <nav class="blue-grey lighten-2" role="navigation">
+        <div class="nav-wrapper container"><a id="logo-container"  href="./index.html" class="brand-logo">In-silico</a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="./index">Clasificatorio</a></li>
+            <li class="active"><a href="./rules.html">Reglas</a></li>
+          </ul>
 
-      <!-- Static navbar -->
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="./index.html">
-              <span class="glyphicon glyphicon-globe" aria-hidden="true"></span> In-silico
-            </a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li>
-                <a href="./index.html">
-                  <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Clasificatorio
-                </a>
-              </li>
-              <li class="active">
-                <a href="./rules.html">
-                  <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Reglas
-                </a>
-              </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a></a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
+          <ul id="nav-mobile" class="side-nav">
+            <li class="active"><a href="./index.html">Clasificatorio</a></li>
+            <li><a href="./rules.html">Reglas</a></li>
+          </ul>
+          <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
         </div><!--/.container-fluid -->
       </nav>
+    </div>
 
-      <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <div class="row">
-          <div class="text-center"><h3>Reglas</h3></div>
-          <div id="theRules"></div>
-        </div>
+    <div class="section no-pad-bot" id="index-banner">
+      <div class="container">
+        <br><br>
+        <h2 class="header center orange-text">Reglas</h2>
+        <div id="theRules"></div>
       </div>
+    </div>
 
-      <div class="row text-center">
-        <h6>Brought to you by </h6>
+    <footer class="page-footer orange center">
+      <div class="container">
         <a href="//github.com/in-silico" target="_blank">
           <img src="./img/logo.png" width="110px"></img>
         </a>
       </div>
+      <div class="footer-copyright">
+        <div class="container">
+        Brought to you by <a class="orange-text text-lighten-3" href="//github.com/in-silico" target="_blank">In-silico</a>
+        </div>
+      </div>
+    </footer>
 
-    </div> <!-- /container -->
+
+    <!--  Scripts-->
+    <script src="./js/bundle.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/materialize.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+    <script src="./js/init.js"></script>
   </body>
 </html>
