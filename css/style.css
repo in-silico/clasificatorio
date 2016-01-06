@@ -3,13 +3,6 @@
  * Made By MaterializeCSS.com
  */
 
-.icon-block {
-  padding: 0 15px;
-}
-
-.icon-block .material-icons {
-  font-size: inherit;
-}
 td, th {
   padding: 6px 8px;
 }
@@ -19,4 +12,8 @@ tr:nth-child(odd) {background: #FFF}
 
 a {
   outline: none;
+}
+
+.material-icons {
+  font-size: 18px;
 }
