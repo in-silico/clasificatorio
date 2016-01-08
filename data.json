@@ -41,20 +41,25 @@
       "scoreboard": "http://ahmed-aly.com/Standings.jsp?ID=23302",
       "contest-name": "Ahmed-Aly OJ - 6",
       "points": 1
+    },{
+      "date": "2016-01-08",
+      "scoreboard": "http://www.codeforces.com/contest/615/standings/",
+      "contest-name": "Codeforces Round #338 (Div. 2)",
+      "points": 2
     }
   ],
   "people": [
     {
       "name": "Carlos Arias",
-      "contests": [0, 2, 4, 5, 6]
+      "contests": [0, 2, 4, 5, 6, {"id": 7, "pos": 4}]
     },
     {
       "name": "Manuel Pineda",
-      "contests": [0, 1, {"id": 3, "pos": 1}, 4, 5, 6]
+      "contests": [0, 1, {"id": 3, "pos": 1}, 4, 5, 6, {"id": 7, "pos": 1}]
     },
     {
       "name": "Sebastian Vega",
-      "contests": [0, 2, 5, 6]
+      "contests": [0, 2, 5, 6, {"id": 7, "pos": 2}]
     },
     {
       "name": "Alejandro Rendon",
@@ -66,11 +71,11 @@
     },
     {
       "name": "Sebastian Duque",
-      "contests": [0, 1, 2, {"id": 3, "pos": 2}, 4, 5, 6]
+      "contests": [0, 1, 2, {"id": 3, "pos": 2}, 4, 5, 6, {"id": 7, "pos": 5}]
     },
     {
       "name": "Leiver Campeon",
-      "contests": [1, 2, {"id": 3, "pos": 4}, 4, 5, 6]
+      "contests": [1, 2, {"id": 3, "pos": 4}, 4, 5, 6, {"id": 7, "pos": 6}]
     },
     {
       "name": "Yeferson Gaitan",
@@ -82,7 +87,7 @@
     },
     {
       "name": "Alejandro Moreno",
-      "contests": [4, 5, 6]
+      "contests": [4, 5, 6, {"id": 7, "pos": 3}]
     },
     {
       "name": "Jorge Gil",
