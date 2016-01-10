@@ -41,10 +41,17 @@
       "scoreboard": "http://ahmed-aly.com/Standings.jsp?ID=23302",
       "contest-name": "Ahmed-Aly OJ - 6",
       "points": 1
-    },{
+    },
+    {
       "date": "2016-01-08",
       "scoreboard": "http://www.codeforces.com/contest/615/standings/",
       "contest-name": "Codeforces Round #338 (Div. 2)",
+      "points": 2
+    },
+    {
+      "date": "2016-01-09",
+      "scoreboard": "http://ahmed-aly.com/Standings.jsp?ID=23318",
+      "contest-name": "Ahmed-Aly OJ - 7",
       "points": 2
     }
   ],
@@ -55,15 +62,15 @@
     },
     {
       "name": "Manuel Pineda",
-      "contests": [0, 1, {"id": 3, "pos": 1}, 4, 5, 6, {"id": 7, "pos": 1}]
+      "contests": [0, 1, {"id": 3, "pos": 1}, 4, 5, 6, {"id": 7, "pos": 1}, 8]
     },
     {
       "name": "Sebastian Vega",
-      "contests": [0, 2, 5, 6, {"id": 7, "pos": 2}]
+      "contests": [0, 2, 5, 6, {"id": 7, "pos": 2}, 8]
     },
     {
       "name": "Alejandro Rendon",
-      "contests": [0, 1, 2, {"id": 3, "pos": 3}, 4, 5, 6]
+      "contests": [0, 1, 2, {"id": 3, "pos": 3}, 4, 5, 6, 8]
     },
     {
       "name": "Alejandro Suarez",
@@ -71,11 +78,11 @@
     },
     {
       "name": "Sebastian Duque",
-      "contests": [0, 1, 2, {"id": 3, "pos": 2}, 4, 5, 6, {"id": 7, "pos": 5}]
+      "contests": [0, 1, 2, {"id": 3, "pos": 2}, 4, 5, 6, {"id": 7, "pos": 5}, 8]
     },
     {
       "name": "Leiver Campeon",
-      "contests": [1, 2, {"id": 3, "pos": 4}, 4, 5, 6, {"id": 7, "pos": 6}]
+      "contests": [1, 2, {"id": 3, "pos": 4}, 4, 5, 6, {"id": 7, "pos": 6}, 8]
     },
     {
       "name": "Yeferson Gaitan",
@@ -83,7 +90,7 @@
     },
     {
       "name": "Daniel Marin",
-      "contests": [2, 4, 5, 6, {"id": 7, "pos": 7}]
+      "contests": [2, 4, 5, 6, {"id": 7, "pos": 7}, 8]
     },
     {
       "name": "Alejandro Moreno",
@@ -91,11 +98,15 @@
     },
     {
       "name": "Jorge Gil",
-      "contests": [6]
+      "contests": [6, 8]
     },
     {
       "name": "Miguel Mendoza",
       "contests" : [6]
+    },
+    {
+      "name": "Carolina Jimenez",
+      "contests" : [8]
     }
   ],
   "rules": {
