@@ -53,24 +53,36 @@
       "scoreboard": "http://ahmed-aly.com/Standings.jsp?ID=23318",
       "contest-name": "Ahmed-Aly OJ - 7",
       "points": 2
+    },
+    {
+      "date": "2016-01-09",
+      "scoreboard": "http://codeforces.com/contest/616/standings",
+      "contest-name": "Educational Codeforces Round 5",
+      "points": 2
+    },
+    {
+      "date": "2016-01-11",
+      "scoreboard": "http://ahmed-aly.com/Standings.jsp?ID=23352",
+      "contest-name": "Ahmed-Aly OJ - 8",
+      "points": 1
     }
   ],
   "people": [
     {
       "name": "Carlos Arias",
-      "contests": [0, 2, 4, 5, 6, {"id": 7, "pos": 4}]
+      "contests": [0, 2, 4, 5, 6, {"id": 7, "pos": 4}, 10]
     },
     {
       "name": "Manuel Pineda",
-      "contests": [0, 1, {"id": 3, "pos": 1}, 4, 5, 6, {"id": 7, "pos": 1}, 8]
+      "contests": [0, 1, {"id": 3, "pos": 1}, 4, 5, 6, {"id": 7, "pos": 1}, 8, 10]
     },
     {
       "name": "Sebastian Vega",
-      "contests": [0, 2, 5, 6, {"id": 7, "pos": 2}, 8]
+      "contests": [0, 2, 5, 6, {"id": 7, "pos": 2}, 8, 10]
     },
     {
       "name": "Alejandro Rendon",
-      "contests": [0, 1, 2, {"id": 3, "pos": 3}, 4, 5, 6, 8]
+      "contests": [0, 1, 2, {"id": 3, "pos": 3}, 4, 5, 6, 8, 10]
     },
     {
       "name": "Alejandro Suarez",
@@ -78,11 +90,11 @@
     },
     {
       "name": "Sebastian Duque",
-      "contests": [0, 1, 2, {"id": 3, "pos": 2}, 4, 5, 6, {"id": 7, "pos": 5}, 8]
+      "contests": [0, 1, 2, {"id": 3, "pos": 2}, 4, 5, 6, {"id": 7, "pos": 5}, 8, 10]
     },
     {
       "name": "Leiver Campeon",
-      "contests": [1, 2, {"id": 3, "pos": 4}, 4, 5, 6, {"id": 7, "pos": 6}, 8]
+      "contests": [1, 2, {"id": 3, "pos": 4}, 4, 5, 6, {"id": 7, "pos": 6}, 8, 10]
     },
     {
       "name": "Yeferson Gaitan",
@@ -90,7 +102,7 @@
     },
     {
       "name": "Daniel Marin",
-      "contests": [2, 4, 5, 6, {"id": 7, "pos": 7}, 8]
+      "contests": [2, 4, 5, 6, {"id": 7, "pos": 7}, 8, 10]
     },
     {
       "name": "Alejandro Moreno",
@@ -98,15 +110,23 @@
     },
     {
       "name": "Jorge Gil",
-      "contests": [6, 8]
+      "contests": [6, 8, 10]
     },
     {
       "name": "Miguel Mendoza",
-      "contests" : [6]
+      "contests": [6]
     },
     {
       "name": "Carolina Jimenez",
-      "contests" : [8]
+      "contests": [8, 10]
+    },
+    {
+      "name": "Carolina Gomez",
+      "contests": [10]
+    },
+    {
+      "name": "Hector Jimenez",
+      "contests": [10]
     }
   ],
   "rules": {
