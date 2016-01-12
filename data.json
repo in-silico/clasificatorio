@@ -21,7 +21,7 @@
     {
       "date": "2015-12-30",
       "scoreboard": "http://codeforces.com/contest/611/standings",
-      "contest-name": "Codeforces - 1",
+      "contest-name": "Codeforces - Good Bye 2015",
       "points": 2
     },
     {
@@ -55,7 +55,7 @@
       "points": 2
     },
     {
-      "date": "2016-01-09",
+      "date": "2016-01-11",
       "scoreboard": "http://codeforces.com/contest/616/standings",
       "contest-name": "Educational Codeforces Round 5",
       "points": 2
@@ -81,7 +81,7 @@
       "contests": [0, 2, 5, 6, {"id": 7, "pos": 2}, 8, 10]
     },
     {
-      "name": "Alejandro Rendon",
+      "name": "Alejandro Rendón",
       "contests": [0, 1, 2, {"id": 3, "pos": 3}, 4, 5, 6, 8, 10]
     },
     {
@@ -93,11 +93,11 @@
       "contests": [0, 1, 2, {"id": 3, "pos": 2}, 4, 5, 6, {"id": 7, "pos": 5}, 8, 10]
     },
     {
-      "name": "Leiver Campeon",
+      "name": "Leiver Campeón",
       "contests": [1, 2, {"id": 3, "pos": 4}, 4, 5, 6, {"id": 7, "pos": 6}, 8, 10]
     },
     {
-      "name": "Yeferson Gaitan",
+      "name": "Yeferson Gaitán",
       "contests": [2, 4, 5, 6]
     },
     {
@@ -117,15 +117,15 @@
       "contests": [6]
     },
     {
-      "name": "Carolina Jimenez",
+      "name": "Carolina Jiménez",
       "contests": [8, 10]
     },
     {
-      "name": "Carolina Gomez",
+      "name": "Carolina Gómez",
       "contests": [10]
     },
     {
-      "name": "Hector Jimenez",
+      "name": "Hector Jiménez",
       "contests": [10]
     }
   ],
