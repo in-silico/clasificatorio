@@ -70,7 +70,7 @@
   "people": [
     {
       "name": "Carlos Arias",
-      "contests": [0, 2, 4, 5, 6, {"id": 7, "pos": 4}, 10]
+      "contests": [0, 2, 4, 5, 6, {"id": 7, "pos": 4}, {"id": 9, "pos": 1}, 10]
     },
     {
       "name": "Manuel Pineda",
@@ -78,11 +78,11 @@
     },
     {
       "name": "Sebastian Vega",
-      "contests": [0, 2, 5, 6, {"id": 7, "pos": 2}, 8, 10]
+      "contests": [0, 2, 5, 6, {"id": 7, "pos": 2}, 8, {"id": 9, "pos": 2},  10]
     },
     {
       "name": "Alejandro Rendón",
-      "contests": [0, 1, 2, {"id": 3, "pos": 3}, 4, 5, 6, 8, 10]
+      "contests": [0, 1, 2, {"id": 3, "pos": 3}, 4, 5, 6, 8, {"id": 9, "pos": 4}, 10]
     },
     {
       "name": "Alejandro Suarez",
@@ -90,7 +90,7 @@
     },
     {
       "name": "Sebastian Duque",
-      "contests": [0, 1, 2, {"id": 3, "pos": 2}, 4, 5, 6, {"id": 7, "pos": 5}, 8, 10]
+      "contests": [0, 1, 2, {"id": 3, "pos": 2}, 4, 5, 6, {"id": 7, "pos": 5}, 8, {"id": 9, "pos": 3}, 10]
     },
     {
       "name": "Leiver Campeón",
