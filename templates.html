@@ -22,12 +22,14 @@
     <thead>
       <th><i class="material-icons">perm_identity</i> Nombre</th>
       <th><i class="material-icons">done_all</i> Puntos</th>
+      <th><i class="material-icons">done_all</i> Rating CF</th>
     </thead>
     <tbody>
       {{#scoreboard}}
       <tr>
         <td class="light" ><a href="{{profile_CF}}" target="_blank">{{name}} </a></td>
         <td>{{score}}</td>
+        <td>{{score_CF}}</td>
       </tr>
       {{/scoreboard}}
     </tbody>

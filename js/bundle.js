@@ -31,8 +31,14 @@ function renderScore(data) {
         score += contest[p.id].points * weight;
       }
     }
-    scoreboard.push({name: f.name, score: score, profile_CF: f.profile_CF});
+    scoreboard.push({
+      name: f.name,
+      score: score,
+      profile_CF: f.profile_CF,
+      score_CF: f.score_CF
+    });
   }
+
   scoreboard.sort(function(a, b) {
     return b.score - a.score;
   });
@@ -43,6 +49,29 @@ function renderScore(data) {
   $("#scoreboard").html(html);
 }
 
+function fetchRatingCF(data, next) {
+  var handles = data.people.map(function(it) {
+    return /http\:\/\/codeforces\.com\/profile\/(.+)/
+      .exec(it.profile_CF)[1];
+  });
+  var query = 'http://codeforces.com/api/user.info?handles='
+  var reverse = {}
+  for (var i = 0; i < handles.length; ++i) {
+    if (i > 0) query += ';';
+    query += handles[i];
+    reverse[handles[i]] = i;
+  }
+
+
+  $.getJSON(query).done(function(ans) {
+    for (var i = 0; i < ans.result.length; ++i) {
+      var cur = ans.result[i];
+      data.people[reverse[cur.handle]].score_CF = cur.rating || 'unrated';
+    }
+    next(data);
+  })
+}
+
 function loadData() {
   $.getJSON('data.json').fail(function (e) {
     alert('Error: ' + JSON.stringify(e));
@@ -51,7 +80,7 @@ function loadData() {
       renderRules(data.rules);
     } else {
       renderContest(data);
-      renderScore(data);
+      fetchRatingCF(data, renderScore);
     }
   });
 }
