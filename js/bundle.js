@@ -31,7 +31,7 @@ function renderScore(data) {
         score += contest[p.id].points * weight;
       }
     }
-    scoreboard.push({name: f.name, score: score});
+    scoreboard.push({name: f.name, score: score, profile_CF: f.profile_CF});
   }
   scoreboard.sort(function(a, b) {
     return b.score - a.score;

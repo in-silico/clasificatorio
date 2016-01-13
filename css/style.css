@@ -20,3 +20,7 @@ a {
 .material-icons {
   font-size: 18px;
 }
+
+.light a {
+  color : black;
+}
