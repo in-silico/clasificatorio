@@ -65,24 +65,30 @@
       "scoreboard": "http://ahmed-aly.com/Standings.jsp?ID=23352",
       "contest-name": "Ahmed-Aly OJ - 8",
       "points": 1
+    },
+    {
+      "date": "2016-01-12",
+      "scoreboard": "#",
+      "contest-name": "TopCoder SRM 678",
+      "points": 4
     }
   ],
   "people": [
     {
       "name": "Carlos Arias",
-      "contests": [0, 2, 4, 5, 6, {"id": 7, "pos": 4}, {"id": 9, "pos": 1}, 10]
+      "contests": [0, 2, 4, 5, 6, {"id": 7, "pos": 4}, {"id": 9, "pos": 1}, 10, 11]
     },
     {
       "name": "Manuel Pineda",
-      "contests": [0, 1, {"id": 3, "pos": 1}, 4, 5, 6, {"id": 7, "pos": 1}, 8, 10]
+      "contests": [0, 1, {"id": 3, "pos": 1}, 4, 5, 6, {"id": 7, "pos": 1}, 8, 10, 11]
     },
     {
-      "name": "Sebastian Vega",
-      "contests": [0, 2, 5, 6, {"id": 7, "pos": 2}, 8, {"id": 9, "pos": 2},  10]
+      "name": "Juan Sebastián Vega",
+      "contests": [0, 2, 5, 6, {"id": 7, "pos": 2}, 8, {"id": 9, "pos": 2}, 10, 11]
     },
     {
       "name": "Alejandro Rendón",
-      "contests": [0, 1, 2, {"id": 3, "pos": 3}, 4, 5, 6, 8, {"id": 9, "pos": 4}, 10]
+      "contests": [0, 1, 2, {"id": 3, "pos": 3}, 4, 5, 6, 8, {"id": 9, "pos": 4}, 10, 11]
     },
     {
       "name": "Alejandro Suarez",
@@ -90,7 +96,7 @@
     },
     {
       "name": "Sebastian Duque",
-      "contests": [0, 1, 2, {"id": 3, "pos": 2}, 4, 5, 6, {"id": 7, "pos": 5}, 8, {"id": 9, "pos": 3}, 10]
+      "contests": [0, 1, 2, {"id": 3, "pos": 2}, 4, 5, 6, {"id": 7, "pos": 5}, 8, {"id": 9, "pos": 3}, 10, 11]
     },
     {
       "name": "Leiver Campeón",
@@ -98,7 +104,7 @@
     },
     {
       "name": "Yeferson Gaitán",
-      "contests": [2, 4, 5, 6]
+      "contests": [2, 4, 5, 6, 11]
     },
     {
       "name": "Daniel Marin",
@@ -122,7 +128,7 @@
     },
     {
       "name": "Carolina Gómez",
-      "contests": [10]
+      "contests": [10, 11]
     },
     {
       "name": "Hector Jiménez",
