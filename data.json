@@ -161,7 +161,8 @@
     ],
     "notes":[
       "Las competencias mencionadas en la regla #2 tienen valor fijo y no se tiene en cuenta la posición en el scoreboard",
-      "Las competencias mencionadas en la regla #1 y regla #3 tienen el siguiente valor: Según el scoreboard los 3 primeros puestos tienen valor de 6, los 3 siguientes puestos valor de 4 y para las demás posiciones valor de 2"
+      "Las competencias mencionadas en la regla #1 y regla #3 tienen el siguiente valor: Según el scoreboard los 3 primeros puestos tienen valor de 6, los 3 siguientes puestos valor de 4 y para las demás posiciones valor de 2",
+      "Si varios competidores tienen la misma cantidad de puntos, se desempatará usando el rating de codeforces"
     ]
   }
 
