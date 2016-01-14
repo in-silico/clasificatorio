@@ -40,6 +40,11 @@ function renderScore(data) {
   }
 
   scoreboard.sort(function(a, b) {
+    if (b.score == a.score) {
+      var bb = (typeof b.score_CF == 'number') ? b.score_CF : 0;
+      var aa = (typeof a.score_CF == 'number') ? a.score_CF : 0;
+      return bb - aa;
+    }
     return b.score - a.score;
   });
 
