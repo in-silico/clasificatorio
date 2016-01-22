@@ -77,38 +77,49 @@
       "scoreboard": "http://ahmed-aly.com/Standings.jsp?ID=23387",
       "contest-name": "Ahmed-Aly OJ - 9",
       "points": 1
-    },{
+    },
+    {
       "date": "2016-01-14",
       "scoreboard": "http://codeforces.com/contest/614/standings",
       "contest-name": "Codeforces Round #339 (Div. 2)",
       "points": 2
-    },{
+    },
+    {
       "date": "2016-01-17",
       "scoreboard": "http://ahmed-aly.com/Standings.jsp?ID=23436",
       "contest-name": "Ahmed-Aly OJ - 10",
       "points": 1
-    },{
+    },
+    {
       "date": "2016-01-18",
       "scoreboard": "http://ahmed-aly.com/Standings.jsp?ID=23452",
       "contest-name": "Ahmed-Aly OJ - 11",
       "points": 1
-    },{
+    },
+    {
       "date": "2016-01-19",
       "scoreboard": "http://ahmed-aly.com/Standings.jsp?ID=23469",
       "contest-name": "Ahmed-Aly OJ - 12",
       "points": 1
-    },{
+    },
+    {
       "date": "2016-01-20",
       "scoreboard": "http://ahmed-aly.com/Standings.jsp?ID=23479",
       "contest-name": "Ahmed-Aly OJ - 13",
       "points": 1
+    },
+    {
+      "date": "2016-01-21",
+      "scoreboard": "http://www.codeforces.com/contest/620/standings/",
+      "contest-name": "Educational Codeforces Round 6",
+      "points": 2
     }
   ],
   "people": [
     {
       "name": "Carlos Arias",
       "contests": [0, 2, 4, 5, 6, {"id": 7, "pos": 4}, {"id": 9, "pos": 1}, 10,
-                   11, 12, {"id": 13, "pos": 3}, 14, 15, 16, 17],
+                   11, 12, {"id": 13, "pos": 3}, 14, 15, 16, 17, {"id": 18, "pos": 2}],
       "profile_CF": "http://codeforces.com/profile/c4rias"
     },
     {
@@ -120,31 +131,26 @@
     {
       "name": "Juan Sebastián Vega",
       "contests": [0, 2, 5, 6, {"id": 7, "pos": 2}, 8, {"id": 9, "pos": 2}, 10,
-                   11, 12, {"id": 13, "pos": 2}, 14, 15, 16, 17],
+                   11, 12, {"id": 13, "pos": 2}, 14, 15, 16, 17, {"id": 18, "pos": 1}],
       "profile_CF": "http://codeforces.com/profile/sebasvega95"
     },
     {
       "name": "Alejandro Rendón",
       "contests": [0, 1, 2, {"id": 3, "pos": 3}, 4, 5, 6, 8, {"id": 9, "pos": 4},
-                   10, 11, 12, {"id": 13, "pos": 4}, 14, 15, 16, 17],
+                   10, 11, 12, {"id": 13, "pos": 4}, 14, 15, 16, 17, {"id": 18, "pos": 5}],
       "profile_CF": "http://codeforces.com/profile/a_rendon"
-    },
-    {
-      "name": "Alejandro Suarez",
-      "contests": [0, 12, 16],
-      "profile_CF": "http://codeforces.com/profile/alsuga"
     },
     {
       "name": "Sebastian Duque",
       "contests": [0, 1, 2, {"id": 3, "pos": 2}, 4, 5, 6, {"id": 7, "pos": 5}, 8,
                    {"id": 9, "pos": 3}, 10, 11, 12, {"id": 13, "pos": 4}, 14, 15,
-                   16, 17],
+                   16, 17, {"id": 18, "pos": 4}],
       "profile_CF": "http://codeforces.com/profile/sebas095"
     },
     {
       "name": "Leiver Campeón",
       "contests": [1, 2, {"id": 3, "pos": 4}, 4, 5, 6, {"id": 7, "pos": 6}, 8, 10,
-                   12, {"id": 13, "pos": 4}, 14, 15, 16, 17],
+                   12, {"id": 13, "pos": 4}, 14, 15, 16, 17, {"id": 18, "pos": 7}],
       "profile_CF": "http://codeforces.com/profile/leiverandres"
     },
     {
@@ -156,12 +162,12 @@
     {
       "name": "Daniel Marin",
       "contests": [2, 4, 5, 6, {"id": 7, "pos": 7}, 8, 10, 12, {"id": 13, "pos": 4},
-                   14, 16, 17],
+                   14, 16, 17, {"id": 18, "pos": 8}],
       "profile_CF": "http://codeforces.com/profile/DanielFMS"
     },
     {
       "name": "Alejandro Moreno",
-      "contests": [4, 5, 6, {"id": 7, "pos": 3}, 12, 15, 16, 17],
+      "contests": [4, 5, 6, {"id": 7, "pos": 3}, 12, 15, 16, 17, {"id": 18, "pos": 3}],
       "profile_CF": "http://codeforces.com/profile/alejomoreno07"
     },
     {
@@ -181,7 +187,7 @@
     },
     {
       "name": "Carolina Gómez",
-      "contests": [10, 11, 12, 14, 15, 16, 17],
+      "contests": [10, 11, 12, 14, 15, 16, 17, {"id": 18, "pos": 6}],
       "profile_CF": "http://codeforces.com/profile/carolinagomezt"
     },
     {
