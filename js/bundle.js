@@ -77,6 +77,23 @@ function fetchRatingCF(data, next) {
   })
 }
 
+
+function renderCumulativeScore(data) {
+  var a = document.getElementById('cumulativeScore');
+  var t = 'http://ahmed-aly.com/showcumulative?IDs=';
+  var first = true;
+  for (var i = 0; i < data.length; ++i) {
+    var m = /.*ID=([0-9]+)/.exec(data[i].scoreboard);
+    if (m) {
+      if (!first) t += '%2C+';
+      first = false;
+      t += m[1];
+    }
+  }
+  //console.log(data);
+  a.href = t;
+}
+
 function loadData() {
   $.getJSON('data.json').fail(function (e) {
     alert('Error: ' + JSON.stringify(e));
@@ -86,6 +103,7 @@ function loadData() {
     } else {
       renderContest(data);
       fetchRatingCF(data, renderScore);
+      renderCumulativeScore(data.contest);
     }
   });
 }
