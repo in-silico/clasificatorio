@@ -52,6 +52,7 @@ function renderScore(data) {
   var template = Handlebars.compile(source);
   var html = template({scoreboard: scoreboard});
   $("#scoreboard").html(html);
+  $('select').material_select();
 }
 
 function fetchRatingCF(data, next) {
