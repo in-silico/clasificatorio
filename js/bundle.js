@@ -13,6 +13,24 @@ function renderRules(data) {
   $("#theRules").html(html);
 }
 
+function addContestList(data) {
+  var people  = data.people,
+      contest = data.contest;
+
+  for (var i = 0, f; f = people[i]; ++i) {
+    var sel = document.getElementById("select-" + f.name);
+    console.log(sel);
+    for (var j = 0; j < f.contests.length; ++j) {
+      var option = document.createElement("option");
+      var contestId = (f.contests[j].id) ? f.contests[j].id : f.contests[j];
+      option.text = contest[contestId]["contest-name"];
+      sel.add(option);
+    }
+  }
+
+  $('select').material_select();
+}
+
 function renderScore(data) {
   var people  = data.people,
       contest = data.contest;
@@ -52,7 +70,7 @@ function renderScore(data) {
   var template = Handlebars.compile(source);
   var html = template({scoreboard: scoreboard});
   $("#scoreboard").html(html);
-  $('select').material_select();
+  addContestList(data);
 }
 
 function fetchRatingCF(data, next) {
