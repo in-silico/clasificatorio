@@ -1,20 +1,28 @@
 <script id="contest-template" type="text/x-handlebars-template">
-<table class="centered">
-    <thead>
-      <th><i class="material-icons">today</i> Fecha</th>
-      <th><i class="material-icons">link</i> Url</th>
-      <th><i class="material-icons">done</i> Valor</th>
-    </thead>
-    <tbody>
-      {{#contest}}
-      <tr>
-        <td>{{date}}</td>
-        <td><a href="{{scoreboard}}" target="_blank">{{contest-name}} </a></td>
-        <td>{{points}}</td>
-      </tr>
-      {{/contest}}
-    </tbody>
-  </table>
+<ul class="collapsible" data-collapsible="accordion">
+
+  {{#contests}}
+    <li>
+      <div class="collapsible-header"><i class="material-icons">filter_drama</i>Section</div>
+      <table class="centered collapsible-body">
+        <thead>
+          <th><i class="material-icons">today</i> Fecha</th>
+          <th><i class="material-icons">link</i> Url</th>
+          <th><i class="material-icons">done</i> Valor</th>
+        </thead>
+        <tbody>
+          {{#contest}}
+          <tr>
+            <td>{{date}}</td>
+            <td><a href="{{scoreboard}}" target="_blank">{{contest-name}} </a></td>
+            <td>{{points}}</td>
+          </tr>
+          {{/contest}}
+        </tbody>
+      </table>
+    </li>
+  {{/contests}}
+</ul>
 </script>
 
 <script id="scoreboard-template" type="text/x-handlebars-template">
@@ -37,7 +45,7 @@
 </script>
 
 <script id="rules-template" type="text/x-handlebars-template">
-  <div class="row center">
+<div class="row center">
     <h5 class="header col s12 light">{{description}}</h5>
   </div>
   <br />
