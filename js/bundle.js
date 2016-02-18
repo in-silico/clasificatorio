@@ -1,9 +1,28 @@
 
 function renderContest(data) {
+  var maxSize = 10;
   var source   = $("#contest-template").html();
   var template = Handlebars.compile(source);
-  var html = template(data);
+  var info = {contests : []}; //: [{contest : data.contest}, {contest : data.contest}]};
+  var cur = {contest: []};
+  for (var i = 0; i < data.contest.length; ++i) {
+    if (cur.contest.length > maxSize) {
+      info.contests.push(cur);
+      cur = {contest: []};
+    }
+    cur.contest.push(data.contest[i]);
+  }
+
+  if (cur.contest.length > 0)
+      info.contests.push(cur);
+
+  var html = template(info);
   $("#contest").html(html);
+  $(document).ready(function(){
+    $('.collapsible').collapsible({
+      accordion : false
+    });
+  });
 }
 
 function renderRules(data) {
@@ -63,8 +82,12 @@ function fetchRatingCF(data, next) {
   var reverse = {}
   for (var i = 0; i < handles.length; ++i) {
     if (i > 0) query += ';';
-    query += handles[i];
-    reverse[handles[i]] = i;
+    //console.log(handles[i]);
+    if (handles[i] == '-') query += ' ';
+    else {
+      query += handles[i];
+      reverse[handles[i]] = i;
+    }
   }
 
 
