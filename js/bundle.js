@@ -82,8 +82,12 @@ function fetchRatingCF(data, next) {
   var reverse = {}
   for (var i = 0; i < handles.length; ++i) {
     if (i > 0) query += ';';
-    query += handles[i];
-    reverse[handles[i]] = i;
+    //console.log(handles[i]);
+    if (handles[i] == '-') query += ' ';
+    else {
+      query += handles[i];
+      reverse[handles[i]] = i;
+    }
   }
 
 
