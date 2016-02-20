@@ -80,21 +80,22 @@ function fetchRatingCF(data, next) {
   });
   var query = 'http://codeforces.com/api/user.info?handles='
   var reverse = {}
+  var first = true;
   for (var i = 0; i < handles.length; ++i) {
-    if (i > 0) query += ';';
     //console.log(handles[i]);
-    if (handles[i] == '-') query += ' ';
-    else {
+    if (handles[i] !== '-') {
+      if (!first) query += ';';
       query += handles[i];
-      reverse[handles[i]] = i;
+      reverse[handles[i].toLowerCase()] = i;
+      first = false;
     }
   }
-
 
   $.getJSON(query).done(function(ans) {
     for (var i = 0; i < ans.result.length; ++i) {
       var cur = ans.result[i];
-      data.people[reverse[cur.handle]].score_CF = cur.rating || 'unrated';
+      console.log(cur.handle);
+      data.people[reverse[cur.handle.toLowerCase()]].score_CF = cur.rating || 'unrated';
     }
     next(data);
   })
