@@ -502,6 +502,11 @@
       "name": "Karen López",
       "contests": [{"id": 38, "pos": 16}],
       "profile_CF": "http://codeforces.com/profile/-"
+    },
+    {
+      "name": "Gabriel Gutierrez Tamayo",
+      "contests": [61],
+      "profile_CF": "http://codeforces.com/profile/-"
     }
   ],
   "rules": {
