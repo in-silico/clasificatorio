@@ -502,7 +502,12 @@
       "name": "Karen López",
       "contests": [{"id": 38, "pos": 16}],
       "profile_CF": "http://codeforces.com/profile/-"
-    }
+    },
+      {
+      "name": "Gabriel Gutierrez Tamayo",
+      "contests": [{"id": 0, "pos": 16}],
+      "profile_CF": "http://codeforces.com/profile/Gabriel98"
+    },
   ],
   "rules": {
     "description": "Reglas para la selección de integrantes para el ICPC 2016, Universidad Tecnológica de Pereira.",
