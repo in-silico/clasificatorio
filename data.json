@@ -358,6 +358,18 @@
       "scoreboard": "http://ahmed-aly.com/standings?ID=24730",
       "contest-name": "Ahmed-Aly OJ - 42",
       "points": 1
+    },
+    {
+      "date": "2016-03-22",
+      "scoreboard": "http://ahmed-aly.com/standings?ID=24745",
+      "contest-name": "Ahmed-Aly OJ - 43",
+      "points": 1
+    },
+    {
+      "date": "2016-03-23",
+      "scoreboard": "http://ahmed-aly.com/standings?ID=24769",
+      "contest-name": "Ahmed-Aly OJ - 44",
+      "points": 1
     }
   ],
   "people": [
@@ -400,7 +412,7 @@
                    24, {"id": 25, "pos": 7}, 26, {"id": 27, "pos": 4}, 28, 29,
                    30, {"id": 31, "pos": 4}, {"id": 32, "pos": 4}, 33, 34, 35,
                    37, {"id": 38, "pos": 7}, 39, 40, 41, 42, {"id": 43, "pos": 2},
-                   46, 47, 48, 50, 52, 53, 55, 57, 58, 59],
+                   46, 47, 48, 50, 52, 53, 55, 57, 58, 59, 60, 61],
       "profile_CF": "http://codeforces.com/profile/a_rendon"
     },
     {
@@ -411,7 +423,8 @@
                    23, 24, {"id": 25, "pos": 4}, 26, {"id": 27, "pos": 2}, 28, 29,
                    30, {"id": 31, "pos": 1}, {"id": 32, "pos": 5}, 33, 34, 35, 37,
                    {"id": 38, "pos": 7}, 39, 40, 41, 42, {"id": 43, "pos": 3},
-                   {"id": 45, "pos": 5}, 46, 47, 48, 50, {"id": 51, "pos": 2}, 52, 53, 54, 55, 57, 58, 59],
+                   {"id": 45, "pos": 5}, 46, 47, 48, 50, {"id": 51, "pos": 2}, 52,
+                   53, 54, 55, 57, 58, 59, 60, 61],
       "profile_CF": "http://codeforces.com/profile/sebas095"
     },
     {
@@ -427,7 +440,8 @@
       "name": "Yeferson Gaitán",
       "contests": [2, 4, 5, 6, 11, 12, {"id": 13, "pos": 4}, 23, {"id": 25, "pos": 5},
                    28, 29, 30, {"id": 31, "pos": 6}, 34, {"id": 36, "pos": 3}, 37,
-                   {"id": 38, "pos": 13}, 39, 40, 41, {"id": 43, "pos": 4}, {"id": 44, "pos": 4}],
+                   {"id": 38, "pos": 13}, 39, 40, 41, {"id": 43, "pos": 4}, {"id": 44, "pos": 4},
+                   60, 61],
       "profile_CF": "http://codeforces.com/profile/Yefri97"
 
     },
@@ -455,7 +469,7 @@
     },
     {
       "name": "Hector Jiménez",
-      "contests": [10, 14, 15, 16, 21, 22, 26],
+      "contests": [10, 14, 15, 16, 21, 22, 26, 61],
       "profile_CF": "http://codeforces.com/profile/h3ct0rJs"
     },
     {
