@@ -400,15 +400,12 @@
       "scoreboard": "http://ahmed-aly.com/standings?ID=24972",
       "contest-name": "Ahmed-Aly OJ - 48",
       "points": 1
-<<<<<<< HEAD
-=======
     },
     {
       "date": "2016-04-05",
       "scoreboard": "http://ahmed-aly.com/standings?ID=24990",
       "contest-name": "Ahmed-Aly OJ - 49",
       "points": 1
->>>>>>> 566f60cdbc913c8bf73f55ca467ba3e0639b938d
     }
   ],
   "people": [
@@ -432,11 +429,7 @@
                    34, 35, {"id": 36, "pos": 2}, 37, {"id": 38, "pos": 1}, 39, 40,
                    41, 42, {"id": 44, "pos": 1}, {"id": 45, "pos": 2}, 46, 48,
                    {"id": 49, "pos": 1}, 50, {"id": 51, "pos": 1}, 52, 53, 56, 62,
-<<<<<<< HEAD
-                   63, {"id": 64, "pos": 1}, 66],
-=======
                    63, {"id": 64, "pos": 1}, 66, 67],
->>>>>>> 566f60cdbc913c8bf73f55ca467ba3e0639b938d
       "profile_CF": "http://codeforces.com/profile/pin3da"
     },
     {
@@ -487,11 +480,7 @@
       "contests": [2, 4, 5, 6, 11, 12, {"id": 13, "pos": 4}, 23, {"id": 25, "pos": 5},
                    28, 29, 30, {"id": 31, "pos": 6}, 34, {"id": 36, "pos": 3}, 37,
                    {"id": 38, "pos": 13}, 39, 40, 41, {"id": 43, "pos": 4}, {"id": 44, "pos": 4},
-<<<<<<< HEAD
-                   60, 61, 63, 65, 66],
-=======
                    60, 61, 63, 65, 66, 67],
->>>>>>> 566f60cdbc913c8bf73f55ca467ba3e0639b938d
       "profile_CF": "http://codeforces.com/profile/Yefri97"
 
     },
