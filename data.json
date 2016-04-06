@@ -400,6 +400,15 @@
       "scoreboard": "http://ahmed-aly.com/standings?ID=24972",
       "contest-name": "Ahmed-Aly OJ - 48",
       "points": 1
+<<<<<<< HEAD
+=======
+    },
+    {
+      "date": "2016-04-05",
+      "scoreboard": "http://ahmed-aly.com/standings?ID=24990",
+      "contest-name": "Ahmed-Aly OJ - 49",
+      "points": 1
+>>>>>>> 566f60cdbc913c8bf73f55ca467ba3e0639b938d
     }
   ],
   "people": [
@@ -411,7 +420,7 @@
                   24, {"id": 25, "pos": 3}, 26, 28, 29, 30, {"id": 32, "pos": 2},
                   {"id": 36, "pos": 4}, 37, {"id": 38, "pos": 1}, {"id": 44, "pos": 2},
                   {"id": 45, "pos": 3}, 46, 47, 48, {"id": 49, "pos": 2}, 50, 54, 55,
-                  {"id": 64, "pos": 2}, 65],
+                  {"id": 64, "pos": 2}, 65, 67],
       "profile_CF": "http://codeforces.com/profile/c4rias"
     },
     {
@@ -423,7 +432,11 @@
                    34, 35, {"id": 36, "pos": 2}, 37, {"id": 38, "pos": 1}, 39, 40,
                    41, 42, {"id": 44, "pos": 1}, {"id": 45, "pos": 2}, 46, 48,
                    {"id": 49, "pos": 1}, 50, {"id": 51, "pos": 1}, 52, 53, 56, 62,
+<<<<<<< HEAD
                    63, {"id": 64, "pos": 1}, 66],
+=======
+                   63, {"id": 64, "pos": 1}, 66, 67],
+>>>>>>> 566f60cdbc913c8bf73f55ca467ba3e0639b938d
       "profile_CF": "http://codeforces.com/profile/pin3da"
     },
     {
@@ -444,7 +457,7 @@
                    24, {"id": 25, "pos": 7}, 26, {"id": 27, "pos": 4}, 28, 29,
                    30, {"id": 31, "pos": 4}, {"id": 32, "pos": 4}, 33, 34, 35,
                    37, {"id": 38, "pos": 7}, 39, 40, 41, 42, {"id": 43, "pos": 2},
-                   46, 47, 48, 50, 52, 53, 55, 57, 58, 59, 60, 61, 62, 65],
+                   46, 47, 48, 50, 52, 53, 55, 57, 58, 59, 60, 61, 62, 65, 67],
       "profile_CF": "http://codeforces.com/profile/a_rendon"
     },
     {
@@ -456,7 +469,7 @@
                    30, {"id": 31, "pos": 1}, {"id": 32, "pos": 5}, 33, 34, 35, 37,
                    {"id": 38, "pos": 7}, 39, 40, 41, 42, {"id": 43, "pos": 3},
                    {"id": 45, "pos": 5}, 46, 47, 48, 50, {"id": 51, "pos": 2}, 52,
-                   53, 54, 55, 57, 58, 59, 60, 61, 62, 65, 66],
+                   53, 54, 55, 57, 58, 59, 60, 61, 62, 65, 66, 67],
       "profile_CF": "http://codeforces.com/profile/sebas095"
     },
     {
@@ -474,7 +487,11 @@
       "contests": [2, 4, 5, 6, 11, 12, {"id": 13, "pos": 4}, 23, {"id": 25, "pos": 5},
                    28, 29, 30, {"id": 31, "pos": 6}, 34, {"id": 36, "pos": 3}, 37,
                    {"id": 38, "pos": 13}, 39, 40, 41, {"id": 43, "pos": 4}, {"id": 44, "pos": 4},
+<<<<<<< HEAD
                    60, 61, 63, 65, 66],
+=======
+                   60, 61, 63, 65, 66, 67],
+>>>>>>> 566f60cdbc913c8bf73f55ca467ba3e0639b938d
       "profile_CF": "http://codeforces.com/profile/Yefri97"
 
     },
@@ -538,7 +555,7 @@
     },
     {
       "name": "Gabriel Gutierrez Tamayo",
-      "contests": [61, 62, 63],
+      "contests": [61, 62, 63, 67],
       "profile_CF": "http://codeforces.com/profile/-"
     }
   ],
