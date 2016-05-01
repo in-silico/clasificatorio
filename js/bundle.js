@@ -104,7 +104,7 @@ function fetchRatingCF(data, next) {
 
 function renderCumulativeScore(data) {
   var a = document.getElementById('cumulativeScore');
-  var t = 'http://ahmed-aly.com/showcumulative?IDs=';
+  var t = 'https://a2oj.com/showcumulative?IDs=';
   var first = true;
   for (var i = 0; i < data.length; ++i) {
     var m = /.*ID=([0-9]+)/.exec(data[i].scoreboard);
