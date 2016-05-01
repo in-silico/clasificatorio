@@ -2,19 +2,19 @@
   "contest": [
     {
       "date": "2015-12-27",
-      "scoreboard": "http://ahmed-aly.com/Standings.jsp?ID=23234",
+      "scoreboard": "https://a2oj.com/standings.jsp?ID=23234",
       "contest-name": "Ahmed-Aly OJ - 1",
       "points": 1
     },
     {
       "date": "2015-12-28",
-      "scoreboard": "http://ahmed-aly.com/Standings.jsp?ID=23239",
+      "scoreboard": "https://a2oj.com/standings.jsp?ID=23239",
       "contest-name": "Ahmed-Aly OJ - 2",
       "points": 1
     },
     {
       "date": "2015-12-29",
-      "scoreboard": "http://ahmed-aly.com/Standings.jsp?ID=23244",
+      "scoreboard": "https://a2oj.com/standings.jsp?ID=23244",
       "contest-name": "Ahmed-Aly OJ - 3",
       "points": 1
     },
@@ -26,19 +26,19 @@
     },
     {
       "date": "2016-01-03",
-      "scoreboard": "http://ahmed-aly.com/Standings.jsp?ID=23279",
+      "scoreboard": "https://a2oj.com/standings.jsp?ID=23279",
       "contest-name": "Ahmed-Aly OJ - 4",
       "points": 1
     },
     {
       "date": "2016-01-04",
-      "scoreboard": "http://a2oj.com/Standings.jsp?ID=23285",
+      "scoreboard": "http://a2oj.com/standings.jsp?ID=23285",
       "contest-name": "Ahmed-Aly OJ - 5",
       "points": 1
     },
     {
       "date": "2016-01-06",
-      "scoreboard": "http://ahmed-aly.com/Standings.jsp?ID=23302",
+      "scoreboard": "https://a2oj.com/standings.jsp?ID=23302",
       "contest-name": "Ahmed-Aly OJ - 6",
       "points": 1
     },
@@ -50,7 +50,7 @@
     },
     {
       "date": "2016-01-09",
-      "scoreboard": "http://ahmed-aly.com/Standings.jsp?ID=23318",
+      "scoreboard": "https://a2oj.com/standings.jsp?ID=23318",
       "contest-name": "Ahmed-Aly OJ - 7",
       "points": 2
     },
@@ -62,7 +62,7 @@
     },
     {
       "date": "2016-01-11",
-      "scoreboard": "http://ahmed-aly.com/Standings.jsp?ID=23352",
+      "scoreboard": "https://a2oj.com/standings.jsp?ID=23352",
       "contest-name": "Ahmed-Aly OJ - 8",
       "points": 1
     },
@@ -74,7 +74,7 @@
     },
     {
       "date": "2016-01-13",
-      "scoreboard": "http://ahmed-aly.com/Standings.jsp?ID=23387",
+      "scoreboard": "https://a2oj.com/standings.jsp?ID=23387",
       "contest-name": "Ahmed-Aly OJ - 9",
       "points": 1
     },
@@ -86,25 +86,25 @@
     },
     {
       "date": "2016-01-17",
-      "scoreboard": "http://ahmed-aly.com/Standings.jsp?ID=23436",
+      "scoreboard": "https://a2oj.com/standings.jsp?ID=23436",
       "contest-name": "Ahmed-Aly OJ - 10",
       "points": 1
     },
     {
       "date": "2016-01-18",
-      "scoreboard": "http://ahmed-aly.com/Standings.jsp?ID=23452",
+      "scoreboard": "https://a2oj.com/standings.jsp?ID=23452",
       "contest-name": "Ahmed-Aly OJ - 11",
       "points": 1
     },
     {
       "date": "2016-01-19",
-      "scoreboard": "http://ahmed-aly.com/Standings.jsp?ID=23469",
+      "scoreboard": "https://a2oj.com/standings.jsp?ID=23469",
       "contest-name": "Ahmed-Aly OJ - 12",
       "points": 1
     },
     {
       "date": "2016-01-20",
-      "scoreboard": "http://ahmed-aly.com/Standings.jsp?ID=23479",
+      "scoreboard": "https://a2oj.com/standings.jsp?ID=23479",
       "contest-name": "Ahmed-Aly OJ - 13",
       "points": 1
     },
@@ -122,31 +122,31 @@
     },
     {
       "date": "2016-01-23",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=23508",
+      "scoreboard": "https://a2oj.com/standings?ID=23508",
       "contest-name": "Ahmed-Aly OJ - 14",
       "points": 4
     },
     {
       "date": "2016-01-24",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=23552",
+      "scoreboard": "https://a2oj.com/standings?ID=23552",
       "contest-name": "Ahmed-Aly OJ - 15",
       "points": 1
     },
     {
       "date": "2016-01-25",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=23576",
+      "scoreboard": "https://a2oj.com/standings?ID=23576",
       "contest-name": "Ahmed-Aly OJ - 16",
       "points": 1
     },
     {
       "date": "2016-01-26",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=23589",
+      "scoreboard": "https://a2oj.com/standings?ID=23589",
       "contest-name": "Ahmed-Aly OJ - 17",
       "points": 1
     },
     {
       "date": "2016-01-27",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=23610",
+      "scoreboard": "https://a2oj.com/standings?ID=23610",
       "contest-name": "Ahmed-Aly OJ - 18",
       "points": 1
     },
@@ -170,7 +170,7 @@
     },
     {
       "date": "2016-02-01",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=23713",
+      "scoreboard": "https://a2oj.com/standings?ID=23713",
       "contest-name": "Ahmed-Aly OJ - 20",
       "points": 1
     },
@@ -182,7 +182,7 @@
     },
     {
       "date": "2016-02-03",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=23765",
+      "scoreboard": "https://a2oj.com/standings?ID=23765",
       "contest-name": "Ahmed-Aly OJ - 22",
       "points": 1
     },
@@ -200,13 +200,13 @@
     },
     {
       "date": "2016-02-07",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=23861",
+      "scoreboard": "https://a2oj.com/standings?ID=23861",
       "contest-name": "Ahmed-Aly OJ - 23",
       "points": 1
     },
     {
       "date": "2016-02-08",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=23880",
+      "scoreboard": "https://a2oj.com/standings?ID=23880",
       "contest-name": "Ahmed-Aly OJ - 24",
       "points": 1
     },
@@ -224,7 +224,7 @@
     },
     {
       "date": "2016-02-10",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=23920",
+      "scoreboard": "https://a2oj.com/standings?ID=23920",
       "contest-name": "Ahmed-Aly OJ - 26",
       "points": 1
     },
@@ -236,25 +236,25 @@
     },
     {
       "date": "2016-02-14",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=24001",
+      "scoreboard": "https://a2oj.com/standings?ID=24001",
       "contest-name": "Ahmed-Aly OJ - 27",
       "points": 1
     },
     {
       "date": "2016-02-15",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=24012",
+      "scoreboard": "https://a2oj.com/standings?ID=24012",
       "contest-name": "Ahmed-Aly OJ - 28",
       "points": 1
     },
     {
       "date": "2016-02-16",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=24032",
+      "scoreboard": "https://a2oj.com/standings?ID=24032",
       "contest-name": "Ahmed-Aly OJ - 29",
       "points": 1
     },
     {
       "date": "2016-02-17",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=24057",
+      "scoreboard": "https://a2oj.com/standings?ID=24057",
       "contest-name": "Ahmed-Aly OJ - 30",
       "points": 1
     },
@@ -284,7 +284,7 @@
     },
     {
       "date": "2016-02-25",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=24201",
+      "scoreboard": "https://a2oj.com/standings?ID=24201",
       "contest-name": "Ahmed-Aly OJ - 32",
       "points": 1
     },
@@ -313,73 +313,73 @@
     },
     {
       "date": "2016-03-06",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=24401",
+      "scoreboard": "https://a2oj.com/standings?ID=24401",
       "contest-name": "Ahmed-Aly OJ - 35",
       "points": 1
     },
     {
       "date": "2016-03-07",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=24425",
+      "scoreboard": "https://a2oj.com/standings?ID=24425",
       "contest-name": "Ahmed-Aly OJ - 36",
       "points": 1
     },
     {
       "date": "2016-03-13",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=24539",
+      "scoreboard": "https://a2oj.com/standings?ID=24539",
       "contest-name": "Ahmed-Aly OJ - 37",
       "points": 1
     },
     {
       "date": "2016-03-14",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=24562",
+      "scoreboard": "https://a2oj.com/standings?ID=24562",
       "contest-name": "Ahmed-Aly OJ - 38",
       "points": 1
     },
     {
       "date": "2016-03-15",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=24593",
+      "scoreboard": "https://a2oj.com/standings?ID=24593",
       "contest-name": "Ahmed-Aly OJ - 39",
       "points": 1
     },
     {
       "date": "2016-03-16",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=24620",
+      "scoreboard": "https://a2oj.com/standings?ID=24620",
       "contest-name": "Ahmed-Aly OJ - 40",
       "points": 1
     },
     {
       "date": "2016-03-18",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=24678",
+      "scoreboard": "https://a2oj.com/standings?ID=24678",
       "contest-name": "Ahmed-Aly OJ - 41",
       "points": 2
     },
     {
       "date": "2016-03-21",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=24730",
+      "scoreboard": "https://a2oj.com/standings?ID=24730",
       "contest-name": "Ahmed-Aly OJ - 42",
       "points": 1
     },
     {
       "date": "2016-03-22",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=24745",
+      "scoreboard": "https://a2oj.com/standings?ID=24745",
       "contest-name": "Ahmed-Aly OJ - 43",
       "points": 1
     },
     {
       "date": "2016-03-23",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=24769",
+      "scoreboard": "https://a2oj.com/standings?ID=24769",
       "contest-name": "Ahmed-Aly OJ - 44",
       "points": 1
     },
     {
       "date": "2016-03-27",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=24832",
+      "scoreboard": "https://a2oj.com/standings?ID=24832",
       "contest-name": "Ahmed-Aly OJ - 45",
       "points": 1
     },
     {
       "date": "2016-03-29",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=24854",
+      "scoreboard": "https://a2oj.com/standings?ID=24854",
       "contest-name": "Ahmed-Aly OJ - 46",
       "points": 1
     },
@@ -391,25 +391,25 @@
     },
     {
       "date": "2016-04-03",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=24940",
+      "scoreboard": "https://a2oj.com/standings?ID=24940",
       "contest-name": "Ahmed-Aly OJ - 47",
       "points": 1
     },
     {
       "date": "2016-04-04",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=24972",
+      "scoreboard": "https://a2oj.com/standings?ID=24972",
       "contest-name": "Ahmed-Aly OJ - 48",
       "points": 1
     },
     {
       "date": "2016-04-05",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=24990",
+      "scoreboard": "https://a2oj.com/standings?ID=24990",
       "contest-name": "Ahmed-Aly OJ - 49",
       "points": 1
     },
     {
       "date": "2016-04-06",
-      "scoreboard": "http://ahmed-aly.com/standings?ID=25014",
+      "scoreboard": "https://a2oj.com/standings?ID=25014",
       "contest-name": "Ahmed-Aly OJ - 50",
       "points": 1
     }
